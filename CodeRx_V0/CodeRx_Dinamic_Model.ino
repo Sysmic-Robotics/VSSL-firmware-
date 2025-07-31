@@ -32,7 +32,7 @@ float B = 0.0003;     // Fricción viscosa [Nm·s/rad]
 
 // Controlador PI (velocidad angular ω)
 float Kp = 0.2;
-float Ki = 10;
+float Ki = 0;
 float error_integral_L = 0;
 float error_integral_R = 0;
 
