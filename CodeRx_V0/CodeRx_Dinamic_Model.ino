@@ -76,7 +76,7 @@ void loop() {
   if (newData) {
     int vrx = dataReceived[0]; // Giro
     int vry = dataReceived[1]; // Avance
-    procesarJoystick(vrx, vry);
+    procesarJoystick(vrx, vry); // Procesa joystick para calcular velocidades
     newData = false;
   }
 
